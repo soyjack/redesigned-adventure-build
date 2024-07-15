@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/jubilant-octo-pancake-build/static/css/main.80f1300d.css",
+    "main.js": "/jubilant-octo-pancake-build/static/js/main.f3f9c372.js",
+    "static/js/453.5b2162da.chunk.js": "/jubilant-octo-pancake-build/static/js/453.5b2162da.chunk.js",
+    "static/media/logo.png": "/jubilant-octo-pancake-build/static/media/logo.766b09a5308e7fabfe91.png",
+    "index.html": "/jubilant-octo-pancake-build/index.html",
+    "main.80f1300d.css.map": "/jubilant-octo-pancake-build/static/css/main.80f1300d.css.map",
+    "main.f3f9c372.js.map": "/jubilant-octo-pancake-build/static/js/main.f3f9c372.js.map",
+    "453.5b2162da.chunk.js.map": "/jubilant-octo-pancake-build/static/js/453.5b2162da.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80f1300d.css",
+    "static/js/main.f3f9c372.js"
+  ]
+}

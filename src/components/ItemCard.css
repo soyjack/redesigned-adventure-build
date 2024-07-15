@@ -1,0 +1,84 @@
+.item-card {
+  border: 1px solid #ccc;
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s;
+  border-radius: 8px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  font-family: 'Open Sans', sans-serif;
+  /* Default font */
+}
+
+.item-card:hover {
+  transform: scale(1.05);
+}
+
+.item-image {
+  width: 100%;
+  /* Ensures the image takes up the full width of the container */
+  height: 200px;
+  /* Set a fixed height for images */
+  object-fit: cover;
+  /* Ensures the image covers the area while maintaining aspect ratio */
+  border-radius: 8px;
+}
+
+.item-description {
+  height: 150px;
+  color: #555;
+  overflow: hidden;
+  /* Ensures content does not overflow the container */
+  margin-top: 10px;
+  font-family: 'Open Sans', sans-serif;
+  /* Description font */
+}
+
+.item-card h3 {
+  font-size: 18px;
+  margin: 10px 0;
+  color: #333;
+  font-family: 'Playfair Display', serif;
+  /* Item name font */
+  font-weight: bold;
+}
+
+.item-card .price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #951313;
+  margin: 10px 0;
+  font-family: 'Roboto', sans-serif;
+  /* Price font */
+}
+
+.seller{
+  font-family: cursive;
+  font-weight: 00;
+}
+
+button {
+  margin-top: 10px;
+}
+
+.add-to-cart-button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  font-size: 16px;
+  border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  /* Button font */
+}
+
+.add-to-cart-button.added {
+  background-color: #28a745;
+}
+
+.add-to-cart-button:hover {
+  background-color: #0056b3;
+}

@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f8f8f8;
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+  position: fixed;
+  /* Make the header fixed */
+  top: 0;
+  /* Position it at the top */
+  left: 0;
+  /* Ensure it starts from the left edge */
+  right: 0;
+  /* Ensure it stretches to the right edge */
+  width: 100%;
+  /* Make it full width */
+  z-index: 1000;
+  /* Ensure it stays above other elements */
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 40px;
+  /* Adjust the height as needed */
+  margin-right: 10px;
+}
+
+.search-box {
+  padding: 5px;
+  font-size: 16px;
+  width: 300px;
+  /* Increase the width of the search bar */
+}
+
+.header-right {
+  display: flex;
+  justify-content: flex-start;
+  /* Align items to the start to shift left */
+  margin-left: -20px;
+  /* Move the buttons 20px to the left */
+}
+
+.header-button {
+  background: none;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.header-button:hover {
+  background-color: #ddd;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  position: relative;
+}
+
+.search-input {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.clear-button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  right: -34px;
+  top: -11px;
+}
+
+.nav-button {
+  margin-left: 10px;
+}
+
+.nav-button.active {
+  background-color: #007bff;
+  color: white;
+}

@@ -1,0 +1,78 @@
+.dashboard {
+  padding-top: 60px;
+  /* Adjust the padding to the height of the header */
+}
+
+.item-list {
+  margin-left: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* Define a responsive grid layout */
+  gap: 10px;
+  /* Add spacing between grid items */
+}
+
+#no-items-found {
+  text-align: center;
+  font-size: 25px;
+  margin-top: 20px;
+  grid-column: 1 / -1;
+  color: whitesmoke;
+  font-weight: 500;
+  /* Center the no items found message across the entire grid */
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.dashboard {
+  padding-top: 60px;
+  /* Adjust the padding to the height of the header */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.item-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  /* Define a responsive grid layout */
+  gap: 10px;
+  /* Add spacing between grid items */
+  flex-grow: 1;
+}
+
+.no-items-found {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+  grid-column: 1 / -1;
+  color: white;
+  /* Center the no items found message across the entire grid */
+}
+
+.cart {
+  margin-top: 20px;
+}
+
+.cart-item {
+  background-color: #f0f0f0;
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-top: 1px solid #ccc;
+}
